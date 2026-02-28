@@ -50,7 +50,7 @@ const About = () => {
                 className="mt-8"
               >
                 <a
-                  href="/resume.pdf"
+                  href="/Siri_p_o resume.pdf"
                   download="SIRI_PO_Resume.pdf"
                   className="inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-space-blue to-space-purple rounded-full text-white font-semibold hover:shadow-lg hover:shadow-space-blue/50 transition-all duration-300"
                 >
