@@ -41,7 +41,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-2xl md:text-4xl font-semibold text-white mb-8"
           >
-            Software Engineering Student & Backend Developer
+            Software Engineering Student
           </motion.h2>
 
           <motion.p
@@ -50,8 +50,8 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="text-lg md:text-xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed"
           >
-            I craft innovative solutions with expertise in backend development, AI/ML integration, 
-            and scalable software design. Passionate about building intelligent applications that make a difference.
+            A passionate fresher exploring the world of software development — eager to build, learn, 
+            and grow through real-world projects and hands-on experience.
           </motion.p>
         </motion.div>
 

@@ -7,25 +7,25 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'BioFaceShield',
-      subtitle: 'Intelligent Authentication System',
-      description: 'A sophisticated face-based authentication system using Python with real-user validation during signup/login. Prevents unauthorized access with a focus on reliability and fraud reduction. Features advanced computer vision algorithms and secure authentication protocols.',
-      tech: ['Python', 'Computer Vision', 'Authentication', 'Security', 'Face Recognition'],
+      title: 'EGRCP',
+      subtitle: 'Employee Grievance & Redressal Complaint Portal',
+      description: 'A web-based portal designed to streamline employee grievance submission and resolution. Employees can raise complaints, track their status, and get timely redressal. Built with a clean UI and structured workflow to ensure transparency in the complaint handling process.',
+      tech: ['React', 'Node.js', 'Express', 'MySQL', 'REST API'],
       icon: (
         <svg className="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
         </svg>
       ),
       featured: true
     },
     {
-      title: 'EduMaster',
-      subtitle: 'AI-Based Adaptive Learning & Test Generation',
-      description: 'Web-based platform for PUC students (NEET & JEE prep) featuring user authentication, stream selection, rule-based adaptive test generation, performance tracking, and integrated PDFs with past question papers. Built to enhance learning outcomes through intelligent assessment.',
-      tech: ['Web Development', 'AI', 'Python', 'Database', 'MySQL', 'Adaptive Learning'],
+      title: 'Invoice App',
+      subtitle: 'Invoice Generation & Management System',
+      description: 'A full-stack invoice management application that lets users create, manage, and track invoices with ease. Features include client management, itemised billing, PDF export, and a dashboard for tracking payment status and invoice history.',
+      tech: ['React', 'Node.js', 'Express', 'MongoDB', 'PDF Generation'],
       icon: (
         <svg className="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
         </svg>
       ),
       featured: true

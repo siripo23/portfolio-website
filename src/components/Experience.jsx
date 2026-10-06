@@ -25,6 +25,17 @@ const Experience = () => {
 
   const achievements = [
     {
+      title: 'Incture Technologies Internship',
+      period: '2026',
+      subtitle: 'Industrial Training – React Development',
+      description: 'Completed industrial training at Incture Technologies Pvt. Ltd., gaining hands-on experience in React development. Worked on real-world SAP-integrated projects, building UI components and learning enterprise-grade development practices.',
+      icon: (
+        <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        </svg>
+      )
+    },
+    {
       title: 'Hackathon 2025',
       period: '2025',
       subtitle: 'INFOTHON 5.0 - VVCE',
@@ -32,17 +43,6 @@ const Experience = () => {
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-        </svg>
-      )
-    },
-    {
-      title: 'Google Cloud Career Launchpad',
-      period: '2025',
-      subtitle: 'Cloud Engineer Track',
-      description: 'Completed comprehensive cloud engineering training program focusing on Google Cloud Platform technologies, cloud infrastructure, deployment strategies, and scalable cloud solutions.',
-      icon: (
-        <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
         </svg>
       )
     },

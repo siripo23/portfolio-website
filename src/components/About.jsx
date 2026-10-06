@@ -18,7 +18,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
-            Passionate software developer with expertise in building innovative solutions and scalable applications
+            A curious and driven fresher ready to turn classroom knowledge into real-world impact
           </p>
 
           <div className="max-w-4xl mx-auto">
@@ -32,14 +32,14 @@ const About = () => {
                 Hi, I'm SIRI P O
               </h3>
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                I'm a passionate software engineering student with a strong foundation in backend development 
-                and AI/ML integration. My journey in technology has led me to work on diverse 
-                projects ranging from intelligent authentication systems to AI-powered adaptive learning applications.
+                I'm a final-year Information Science & Engineering student at Vidyavardhaka College of Engineering, 
+                currently maintaining a CGPA of 9.26. I enjoy solving problems through code and am passionate 
+                about learning new technologies by building real projects.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                I specialize in creating scalable applications using Python and Java, with experience in 
-                backend development, AI/ML integration, and database management. Always eager to learn 
-                new technologies and tackle challenging problems.
+                From SAP development during my internship at Incture to building full-stack web applications, 
+                I'm constantly pushing myself to grow. I work primarily with Python, Java, and web technologies, 
+                and I'm always excited to take on new challenges.
               </p>
 
               {/* Download Resume Button */}
