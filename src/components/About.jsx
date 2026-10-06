@@ -33,11 +33,11 @@ const About = () => {
               </h3>
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
                 I'm a final-year Information Science & Engineering student at Vidyavardhaka College of Engineering, 
-                currently maintaining a CGPA of 9.26. I enjoy solving problems through code and am passionate 
+                currently maintaining a CGPA of 9.13. I enjoy solving problems through code and am passionate 
                 about learning new technologies by building real projects.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                From SAP development during my internship at Incture to building full-stack web applications, 
+                From React training at Incture Technologies to building full-stack web applications, 
                 I'm constantly pushing myself to grow. I work primarily with Python, Java, and web technologies, 
                 and I'm always excited to take on new challenges.
               </p>

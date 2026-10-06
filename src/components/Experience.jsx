@@ -12,7 +12,7 @@ const Experience = () => {
       organization: 'Vidyavardhaka College of Engineering',
       period: 'Sep 2023 - Jun 2027',
       type: 'Education',
-      description: 'Currently pursuing B.E. with a CGPA of 9.26, focusing on software engineering, backend development, and system design. Strong foundations in Python and Java programming with expertise in Data Structures, Algorithms, Computer Networks, and Database Management Systems.',
+      description: 'Currently pursuing B.E. with a CGPA of 9.13, focusing on software engineering and web development. Strong foundations in Python and Java programming with expertise in Data Structures, Algorithms, Computer Networks, and Database Management Systems.',
       icon: (
         <svg className="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 14l9-5-9-5-9 5 9 5z" />
@@ -25,10 +25,11 @@ const Experience = () => {
 
   const achievements = [
     {
-      title: 'Incture Technologies Internship',
+      title: 'Incture Technologies Training',
       period: '2026',
-      subtitle: 'Industrial Training – React Development',
-      description: 'Completed industrial training at Incture Technologies Pvt. Ltd., gaining hands-on experience in React development. Worked on real-world SAP-integrated projects, building UI components and learning enterprise-grade development practices.',
+      subtitle: 'React Development Training',
+      description: 'Completed React development training conducted by Incture Technologies Pvt. Ltd. Gained hands-on experience building UI components with React, understanding component-based architecture, and applying industry-standard development practices.',
+      certificateLink: '/Siri P O_React_Certificate.pdf',
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -130,6 +131,22 @@ const Experience = () => {
                   <p className="text-space-purple font-semibold mb-2">{achievement.subtitle}</p>
                   <p className="text-sm text-gray-400 mb-3">{achievement.period}</p>
                   <p className="text-gray-300 leading-relaxed text-sm">{achievement.description}</p>
+                  {achievement.certificateLink && (
+                    <div className="mt-4">
+                      <a
+                        href={achievement.certificateLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-space-blue to-space-purple rounded-full text-white text-xs font-semibold hover:shadow-lg hover:shadow-space-blue/50 transition-all duration-300"
+                      >
+                        <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                        </svg>
+                        View Certificate
+                      </a>
+                    </div>
+                  )}
                 </motion.div>
               ))}
             </div>
